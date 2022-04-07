@@ -7,14 +7,15 @@ WORKDIR /usr/src/app
 ARG NODE_ENV
 ENV NODE_ENV $NODE_ENV
 
-COPY --chown=node:node install/package.json /usr/src/app/package.json
+RUN npm install -g npm@8.5.5
 
-USER node
+COPY install/package.json /usr/src/app/package.json
+
 
 RUN npm install --only=prod && \
     npm cache clean --force
 
-COPY --chown=node:node . /usr/src/app
+COPY . /usr/src/app
 
 ENV NODE_ENV=production \
     daemon=false \
