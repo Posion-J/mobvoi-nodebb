@@ -19,7 +19,6 @@ COPY . /usr/src/app
 ENV NODE_ENV=production \
     daemon=false \
     silent=false
-    
 
 EXPOSE 4567
 
