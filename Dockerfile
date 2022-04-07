@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 ARG NODE_ENV
 ENV NODE_ENV $NODE_ENV
 
-RUN npm install -g npm@8.5.5
+RUN npm install -g npm@8.6.0
 
 COPY install/package.json /usr/src/app/package.json
 
