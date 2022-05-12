@@ -69,6 +69,7 @@
 	"no-group": "Group does not exist",
 	"no-user": "User does not exist",
 	"no-teaser": "Teaser does not exist",
+	"no-flag": "Flag does not exist",
 	"no-privileges": "You do not have enough privileges for this action.",
 
 	"category-disabled": "Category disabled",
@@ -184,6 +185,7 @@
 	"already-voting-for-this-post": "You have already voted for this post.",
 	"reputation-system-disabled": "Reputation system is disabled.",
 	"downvoting-disabled": "Downvoting is disabled",
+	"not-enough-reputation-to-chat": "You need %1 reputation to chat",
 	"not-enough-reputation-to-upvote": "You need %1 reputation to upvote",
 	"not-enough-reputation-to-downvote": "You need %1 reputation to downvote",
 	"not-enough-reputation-to-flag": "You need %1 reputation to flag this post",
